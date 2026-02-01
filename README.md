@@ -23,5 +23,4 @@ component-based architecture, and interactive UI handling.
 
 ---
 
-## 📂 Project Structure
 
