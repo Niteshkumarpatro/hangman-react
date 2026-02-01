@@ -20,3 +20,10 @@ component-based architecture, and interactive UI handling.
 - HTML
 - CSS / Tailwind CSS
 - Vite
+<<<<<<< HEAD
+=======
+
+---
+
+
+>>>>>>> 493ba88a2c1edf031dd32e4a4bcec2166137563a
