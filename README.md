@@ -3,6 +3,11 @@
 A classic Hangman word-guessing game built using React to practice state management,
 component-based architecture, and interactive UI handling.
 
+
+<p align="center">
+  <img src="preview.png" alt="Project Preview" width="600">
+</p>
+
 ---
 
 ## 🚀 Features
