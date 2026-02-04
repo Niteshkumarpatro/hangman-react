@@ -1,7 +1,8 @@
-# Hangman Game 🎯 (React)
+🎯 Hangman Game (React)
 
-A classic Hangman word-guessing game built using React to practice state management,
-component-based architecture, and interactive UI handling.
+A simple Hangman-style game UI built using React, focusing on state management, component-based structure, and interactive letter selection.
+
+This project currently demonstrates the core mechanics and UI of Hangman
 
 
 <p align="center">
@@ -10,12 +11,23 @@ component-based architecture, and interactive UI handling.
 
 ---
 
-## 🚀 Features
-- Random word selection
-- Letter guessing through on-screen keyboard
-- Real-time update of guessed letters
-- Win and lose condition handling
-- Restart game functionality
+🚀 Features
+
+⌨️ On-screen alphabet keyboard (A–Z)
+
+🎨 Color-coded letters:
+
+🟢 Correct guesses
+
+🔴 Incorrect guesses
+
+🔵 Unused letters
+
+🔤 Real-time update of selected letters
+
+🧍 Visual Hangman drawing display
+
+🧩 Masked word display (reveals letters as guessed)
 
 ---
 
@@ -25,4 +37,18 @@ component-based architecture, and interactive UI handling.
 - HTML
 - CSS / Tailwind CSS
 - Vite
+
+🧠 What This Project Focuses On
+
+Managing array state in React
+
+Understanding immutability (setState with new arrays)
+
+Passing state and handlers via props
+
+Conditional styling based on state
+
+Breaking UI into reusable components
+
+
 
