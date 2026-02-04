@@ -1,3 +1,6 @@
+![React](https://img.shields.io/badge/React-17.0.2-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 🎯 Hangman Game (React)
 
 A simple Hangman-style game UI built using React, focusing on state management, component-based structure, and interactive letter selection.
