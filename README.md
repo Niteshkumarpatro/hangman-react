@@ -38,17 +38,11 @@ This project currently demonstrates the core mechanics and UI of Hangman
 - CSS / Tailwind CSS
 - Vite
 
-🧠 What This Project Focuses On
+## How to Run
+npm install  
+npm run dev  
 
-Managing array state in React
-
-Understanding immutability (setState with new arrays)
-
-Passing state and handlers via props
-
-Conditional styling based on state
-
-Breaking UI into reusable components
+Made with ❤️ by Nitesh
 
 
 
