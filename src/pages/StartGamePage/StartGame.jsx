@@ -4,8 +4,8 @@ import { useNavigate } from "react-router-dom";
 function StartGame() {
   const navigate = useNavigate(); // this created the navigator object
 
-  function handleSubmit() {
-    navigate("/play"); // navigate takes the route and moves us there
+  function handleSubmit(value) {
+     navigate("/play",{state:{wordSelected:value}}); // navigate takes the route and moves us there
   }
   return (
     <div>

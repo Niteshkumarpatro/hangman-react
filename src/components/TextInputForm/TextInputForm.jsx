@@ -1,13 +1,13 @@
 import Button from "../Button/button";
 import TextInput from "../TextInput/TextInput";
-import { useState } from "react";
+// import { useState } from "react";
 
 // presentation component
 
 
 
 function TextInputForm({ handleFormSubmit, handleTextInputChange, value, inputType = "text", setInputType }) {
-  const [toggle, setToggle] = useState(false);
+  // const [toggle, setToggle] = useState(false);
 
 
   return (
@@ -36,7 +36,7 @@ function TextInputForm({ handleFormSubmit, handleTextInputChange, value, inputTy
         <Button text="ok" buttonType="submit" />
       </div>
 
-      <div>
+      {/* <div>
         <button
           onClick={(event) => {
             event.preventDefault();
@@ -46,7 +46,7 @@ function TextInputForm({ handleFormSubmit, handleTextInputChange, value, inputTy
         >
           hey
         </button>
-      </div>
+      </div> */}
     </form>
   );
 }

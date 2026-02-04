@@ -14,15 +14,15 @@ function MaskedText({ text, usedLetters }) {
     return (
         <>
 
-           {letters.map((letter,index)=>{
-            return(
-                <span key={`letter-${index}`} className="inline-block mx-1">{letter}</span>
-            )
+            {letters.map((letter, index) => {
+                return (
+                    <span key={`letter-${index}`} className="inline-block mx-1">{letter}</span>
+                )
 
-            
-           })
 
-           }
+            })
+
+            }
 
         </>
 
