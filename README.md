@@ -1,3 +1,4 @@
+# Hangman Game (React)
 ![React](https://img.shields.io/badge/React-17.0.2-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
