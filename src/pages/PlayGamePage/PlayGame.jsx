@@ -8,11 +8,19 @@ import Hangman from "../../components/Hangman/Hangman";
 function PlayGame() {
     const [usedLetters, setUsedLetters] = useState([])
 
-    const [step, setStep] = useState(1);
+    const [step, setStep] = useState(0);
     ;
     const location = useLocation();
     const wordSelected = location.state?.wordSelected;// if the state is not defined.it will return undefined,otherwise
     //it will return the value of wordSelected
+    if (!wordSelected) {
+    return (
+      <div>
+        <h1>No word selected</h1>
+        <Link to="/start">Go to Start Game</Link>
+      </div>
+    );
+  }
 
     const handleLetterClick = function (letter) {
         if (wordSelected.toUpperCase().includes(letter)) {
